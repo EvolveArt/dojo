@@ -1008,7 +1008,7 @@ test_manifest_file
           "key": false
         }
       ],
-      "class_hash": "0x2a20de0f38504e870c0ea88a2ac39e7d4e123ed1e024929638cf037a3e47396",
+      "class_hash": "0x1386e5ceb61f26007b7cf69cf5fdc85ca6d8ec18dc7af5a69fd7c3d8d92b841",
       "abi": [
         {
           "type": "function",
@@ -1086,7 +1086,7 @@ test_manifest_file
         },
         {
           "type": "struct",
-          "name": "dojo::database::schema::Struct",
+          "name": "dojo::database::introspect::Struct",
           "members": [
             {
               "name": "name",
@@ -1114,7 +1114,7 @@ test_manifest_file
         },
         {
           "type": "struct",
-          "name": "dojo::database::schema::Enum",
+          "name": "dojo::database::introspect::Enum",
           "members": [
             {
               "name": "name",
@@ -1132,7 +1132,7 @@ test_manifest_file
         },
         {
           "type": "enum",
-          "name": "dojo::database::schema::Ty",
+          "name": "dojo::database::introspect::Ty",
           "variants": [
             {
               "name": "Primitive",
@@ -1140,11 +1140,11 @@ test_manifest_file
             },
             {
               "name": "Struct",
-              "type": "dojo::database::schema::Struct"
+              "type": "dojo::database::introspect::Struct"
             },
             {
               "name": "Enum",
-              "type": "dojo::database::schema::Enum"
+              "type": "dojo::database::introspect::Enum"
             },
             {
               "name": "Tuple",
@@ -1158,7 +1158,7 @@ test_manifest_file
           "inputs": [],
           "outputs": [
             {
-              "type": "dojo::database::schema::Ty"
+              "type": "dojo::database::introspect::Ty"
             }
           ],
           "state_mutability": "view"
@@ -1185,7 +1185,7 @@ test_manifest_file
           "key": false
         }
       ],
-      "class_hash": "0x6f8b85d1f68eab7612e3f4ea178c6386cedb30a6925c9f662a251c640b86d96",
+      "class_hash": "0x711e1cd5b28adf41644220f2cc650eec2df19e996b0818d242bd52f83d482e4",
       "abi": [
         {
           "type": "function",
@@ -1263,7 +1263,7 @@ test_manifest_file
         },
         {
           "type": "struct",
-          "name": "dojo::database::schema::Struct",
+          "name": "dojo::database::introspect::Struct",
           "members": [
             {
               "name": "name",
@@ -1291,7 +1291,7 @@ test_manifest_file
         },
         {
           "type": "struct",
-          "name": "dojo::database::schema::Enum",
+          "name": "dojo::database::introspect::Enum",
           "members": [
             {
               "name": "name",
@@ -1309,7 +1309,7 @@ test_manifest_file
         },
         {
           "type": "enum",
-          "name": "dojo::database::schema::Ty",
+          "name": "dojo::database::introspect::Ty",
           "variants": [
             {
               "name": "Primitive",
@@ -1317,11 +1317,11 @@ test_manifest_file
             },
             {
               "name": "Struct",
-              "type": "dojo::database::schema::Struct"
+              "type": "dojo::database::introspect::Struct"
             },
             {
               "name": "Enum",
-              "type": "dojo::database::schema::Enum"
+              "type": "dojo::database::introspect::Enum"
             },
             {
               "name": "Tuple",
@@ -1335,7 +1335,7 @@ test_manifest_file
           "inputs": [],
           "outputs": [
             {
-              "type": "dojo::database::schema::Ty"
+              "type": "dojo::database::introspect::Ty"
             }
           ],
           "state_mutability": "view"

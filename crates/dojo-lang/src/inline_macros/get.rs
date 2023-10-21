@@ -86,7 +86,7 @@ impl InlineMacroExprPlugin for GetMacro {
 
             builder.add_str(&format!(
                 "\n            let mut __{model}_layout__ = array::ArrayTrait::new();
-                 dojo::database::schema::SchemaIntrospection::<{model}>::layout(ref \
+                 dojo::database::introspect::Introspect::<{model}>::layout(ref \
                  __{model}_layout__);
                  let mut __{model}_layout_clone__ = __{model}_layout__.clone();
                  let mut __{model}_layout_span__ = array::ArrayTrait::span(@__{model}_layout__);

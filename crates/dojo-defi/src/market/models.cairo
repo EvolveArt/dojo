@@ -1,12 +1,12 @@
 use starknet::ContractAddress;
-use dojo::database::schema::{Struct, Ty, SchemaIntrospection, Member, serialize_member};
+use dojo::database::introspect::{Struct, Ty, Introspect, Member, serialize_member};
 
 // Cubit fixed point math library
 use cubit::f128::types::fixed::Fixed;
 
 const SCALING_FACTOR: u128 = 10000;
 
-impl SchemaIntrospectionFixed of SchemaIntrospection<Fixed> {
+impl IntrospectFixed of Introspect<Fixed> {
     #[inline(always)]
     fn size() -> usize {
         2
