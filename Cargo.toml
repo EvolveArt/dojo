@@ -11,6 +11,7 @@ members = [
   "crates/katana",
   "crates/katana/core",
   "crates/katana/rpc",
+  "crates/katana/storage/provider",
   "crates/sozo",
   "crates/torii/client",
   "crates/torii/server",
