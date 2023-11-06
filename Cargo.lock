@@ -4856,6 +4856,9 @@ dependencies = [
 [[package]]
 name = "katana-provider"
 version = "0.3.4"
+dependencies = [
+ "starknet",
+]
 
 [[package]]
 name = "katana-rpc"
